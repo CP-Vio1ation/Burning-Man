@@ -1,0 +1,124 @@
+* {
+        box-sizing: border-box;
+}
+
+body{font-family: 'Anton', sans-serif;
+     font-weight: 400;}
+
+
+ul{margin: 0;
+   padding: 0;
+   list-style: none;
+   }
+   
+ 
+   
+
+a{color: #ffffff;
+text-decoration: none;}   
+
+
+p{font-family: 'Open Sans';}
+
+.header{background-image: url("../img/header-bg.png");
+        width: 1600px;
+        height: 900px;
+        margin: 0 auto;}
+
+.main-container{max-width: 1200px;
+                margin: 0 auto;}
+
+.header-nav{display: flex;
+            justify-content: space-between;
+            align-items: center;}
+
+.logo{padding-top: 57px;}
+        
+
+.header-list{display: flex;
+             padding-top: 71px;}
+
+.header-items{padding-left: 40px;
+              font-size: 17px;
+              line-height: 21px;}
+
+.phone{padding-top: 71px;}              
+
+
+
+.header-main{padding-top: 229px;}
+
+.header-title{text-transform: uppercase;
+              margin: 0;
+              font-weight: 400;
+              font-size: 30px;
+              line-height: 45px;
+              color: #ffffff;}
+
+.burning-title{font-weight: 400;
+               font-size: 100px;
+               line-height: 150px;
+               text-transform: uppercase;
+               margin: 0;
+               color: #ffffff;}
+
+
+.header-button{text-transform: uppercase;
+               width: 238px;
+               height: 57px;}
+
+
+/* Section */
+
+.section{padding-top: 113px;}
+
+
+.about{display: flex;}
+
+
+.about-title{margin: 0;
+             font-weight: 400;
+             font-size: 50px;
+             line-height: 75px;}
+
+
+.rebulding{margin-top: 58px;
+           width: 600px;}
+
+
+.title-rebuilding{font-weight: 400;
+                  font-size: 25px;
+                  line-height: 38px;
+                  margin: 0;}
+
+
+.text-rebulding{font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: justify;
+                margin-bottom: 120px;}
+
+
+.the-driver-us{margin-top: 58px;
+               margin-left: 36px;
+               width: 600px;}
+
+.title-driver-us{font-weight: 400;
+                 font-size: 25px;
+                 line-height: 38px;
+                 margin: 0;}
+              
+.text-driver-us{font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: justify;
+                margin-bottom: 67px;} 
+             
+img:not(:last-child) {margin-right: 29px;}     
+
+
+.footer{padding-top: 114px;}
+
+.footer-text{font-weight: 400;
+             font-size: 15px;
+             line-height: 20px;}
